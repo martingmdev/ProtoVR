@@ -1,18 +1,24 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #1e2b36;
     margin: 0;
     padding: 0;
+    color: #f4f4f4; /* Ajusta el color del texto para que sea legible */
+}
+
+.mastercont{
+    background-color: #1e2b36;
+}
+
+.container, .container-fluid {
+    background-color: #1e2b36;
 }
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
-}
-
-h1 {
-    color: #333;
+    background-color: #1e2b36;
 }
 
 .gallery {
@@ -38,21 +44,107 @@ h1 {
     height: 500px;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.nav button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
     border-radius: 5px;
-    cursor: pointer;
 }
 
-.nav button:hover {
-    background-color: #555;
+.carousel {
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel {
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out; /* Transición de opacidad */
+}
+
+.carousel-item {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Transición de transformación y opacidad */
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+    pointer-events: none;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    animation: fadeInUp 0.5s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.image-slider {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.image-slider-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+.slider-image.active {
+    opacity: 0.6;
 }

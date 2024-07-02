@@ -4,33 +4,35 @@
     <meta charset="UTF-8">
     <title>Recorridos Virtuales</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nav.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">
-        <img src="images/descod.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-        DesCod R E S I D E N C I A L
+            <img src="images/descodw.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            DesCod R E S I D E N C I A L
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Inicio</a>
+                    <a class="nav-link active" href="index.php">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="casa1.php">Model A</a>
+                    <a class="nav-link" href="modelos.php">Modelos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="casa2.php">Model B</a>
+                    <a class="nav-link" href="venta.php">Venta</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="casa3.php">Model C</a>
+                    <a class="nav-link" href="amenidades.php">Amenidades</a>
                 </li>
+            </ul>
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link btn btn-primary text-white" href="login.php">Login</a>
+                    <a class="btn btn-cobalt" href="contacto.php">Contáctanos</a>
                 </li>
             </ul>
         </div>
