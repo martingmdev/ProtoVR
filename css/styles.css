@@ -6,6 +6,13 @@ body {
     color: #f4f4f4; /* Ajusta el color del texto para que sea legible */
 }
 
+
+
+.titles {
+    color: white;
+    margin-top: 20px;
+}
+
 .mastercont{
     background-color: #1e2b36;
 }
@@ -42,12 +49,6 @@ body {
 .vr-viewer {
     margin: 20px 0;
     height: 500px;
-}
-
-.carousel-caption {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 5px;
 }
 
 .carousel {

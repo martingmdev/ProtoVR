@@ -9,8 +9,7 @@
 <body>
 <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">
-            <img src="images/descodw.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-            DesCod R E S I D E N C I A L
+            <img src="images/bonsai-horizontal-w.png" alt="" width="auto" height="50px" class="d-inline-block align-text-top">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
