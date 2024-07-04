@@ -8,7 +8,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php">
             <img src="images/bonsai-horizontal-w.png" alt="" width="auto" height="50px" class="d-inline-block align-text-top">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,21 +17,21 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.php">Inicio</a>
+                    <a class="nav-link active link" href="index.php">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="modelos.php">Modelos</a>
+                    <a class="nav-link link" href="modelos.php">Modelos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="venta.php">Venta</a>
+                    <a class="nav-link link" href="venta.php">Venta</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="amenidades.php">Amenidades</a>
+                    <a class="nav-link link" href="amenidades.php">Amenidades</a>
                 </li>
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="btn btn-cobalt" href="contacto.php">Contáctanos</a>
+                    <a class="nav-link link cont" href="contacto.php">Contactanos</a>
                 </li>
             </ul>
         </div>
