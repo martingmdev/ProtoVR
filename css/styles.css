@@ -4,7 +4,30 @@ body {
     background-color: #1e2b36;
     margin: 0;
     padding: 0;
-    color: #f4f4f4; /* Ajusta el color del texto para que sea legible */
+    color: #f4f4f4;
+}
+
+.containerinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.infoimg{
+    opacity: 0.9;
+    background-color: black;
+    max-width: 500px; /* Ajusta el ancho máximo de la imagen al contenedor */
+    height: auto; /* Ajusta la altura automáticamente */
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+ul{
+    list-style-type: none;
 }
 
 .border{
@@ -18,7 +41,7 @@ body {
 }
 
 .mastercont{
-    margin: 0 auto; /* Centra el contenedor principal */
+    margin: 0 auto;
     background-color: #ffffff;
 }
 
@@ -36,4 +59,20 @@ body {
 .vr-viewer {
     margin: 20px 0;
     height: 500px;
+}
+
+.highlight {
+    font-family: "Titillium Web", -apple-system, BlinkMacSystemFont, Sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #003ba8;
+    text-transform: uppercase;
+    flex: 1;
+    text-align: left;
+}
+
+.info{
+    flex: 1;
+    text-align: justify;
+    align-items: center;
 }

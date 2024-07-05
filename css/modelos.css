@@ -5,7 +5,7 @@ body {
     background-color: #1e2b36;
     margin: 0;
     padding: 0;
-    color: #f4f4f4; /* Ajusta el color del texto para que sea legible */
+    color: #f4f4f4;
 }
 
 .border {
@@ -18,12 +18,12 @@ body {
 }
 
 .mastercont {
-    margin: 0 auto; /* Centra el contenedor principal */
+    margin: 0 auto;
     background-color: #ffffff;
 }
 
 .container, .container-fluid {
-    background-color: #1e2b36;
+    background-color: #081b2b;
 }
 
 .container {

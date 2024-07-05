@@ -24,6 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
     textElement.textContent = texts[currentIndex];
 });
 
-function changeImage(imagePath) {
-    document.getElementById('vr-image').setAttribute('src', imagePath);
+
+function changeImage(src) {
+    const sky = document.getElementById('vr-image');
+    sky.setAttribute('src', src);
 }
+
