@@ -8,7 +8,7 @@
 </head>
     <?php include('navbar.php');?>
     <div class="container border">
-        <h1 class="titlesmod">Conoce nuestros modelos de Casas</h1>
+        <h1 class="highlight">Conoce nuestros modelos de Casas</h1>
         <div class="container-mod">
             <div class="card">
                 <img src="images/modela.jpg" alt="Casa Modelo 1">

@@ -7,7 +7,7 @@
     <title>Conoce nuestros modelos de Casas</title>
 </head>
 <div class="mod">
-    <h1>Conoce nuestros modelos de Casas</h1>
+    <h1 class="highlight">Conoce nuestros modelos de Casas</h1>
     <div class="container-mod">
         <div class="card">
             <img src="images/modela.jpg" alt="Casa Modelo 1">

@@ -18,21 +18,23 @@
                         <p>DESCUBRE LA SERENIDAD EN RESIDENCIAL BONSÁI</p>                </div>
                 <div class="info">
                     <p>Vive rodeado de áreas verdes y jardines diseñados para ofrecerte un ambiente de paz y serenidad. La belleza de la naturaleza en su máxima expresión, a solo unos pasos de tu hogar.</p>
-                    <img class="infoimg" src="images/info.jpg" alt="">
+                    <img class="infoimg" src="images/info3.jpg" alt="">
                 </div>
             </div>
 
             <div class="containerinfo">
                 <div class="info">
                     <div class="features">
-                    <ul>
-                        <li><strong>Ubicación privilegiada:</strong> Situado en un área exclusiva, cerca de parques, centros comerciales y vías principales.</li>
-                        <li><strong>Diseño sofisticado:</strong> Arquitectura con detalles que reflejan la elegancia y el estilo.</li>
-                        <li><strong>Amenidades de lujo:</strong> Piscina, gimnasio completamente equipado, áreas verdes y zonas de recreación para toda la familia.</li>
-                        <li><strong>Seguridad y privacidad:</strong> Acceso controlado y vigilancia las 24 horas para tu tranquilidad.</li>
-                    </ul>
+                    <img class="infoimg" src="images/infoa.jpg" alt="">
+                    <div class="infoa">
+                        <ul>
+                            <li><strong>Ubicación privilegiada:</strong> Situado en un área exclusiva, cerca de parques, centros comerciales y vías principales.</li>
+                            <li><strong>Diseño sofisticado:</strong> Arquitectura con detalles que reflejan la elegancia y el estilo.</li>
+                            <li><strong>Amenidades de lujo:</strong> Piscina, gimnasio completamente equipado, áreas verdes y zonas de recreación para toda la familia.</li>
+                            <li><strong>Seguridad y privacidad:</strong> Acceso controlado y vigilancia las 24 horas para tu tranquilidad.</li>
+                        </ul>
+                    </div>
                     </div>                    
-                    <img class="infoimg" src="images/info.jpg" alt="">
                 </div>
                 <div class="highlight">
                         <p>Características destacadas</p>                
